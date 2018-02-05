@@ -92,7 +92,7 @@ public class Activity1 extends AppCompatActivity {
                 mAdapter.notifyItemRemoved(1);
                 break;
             case R.id.item_change_divider:
-                mDecoration.setDividerDrawable(getResources().getDrawable(R.drawable.divider));
+                mDecoration.setDividerDrawable(getResources().getDrawable(R.drawable.item1_divider));
                 mAdapter.notifyDataSetChanged();
                 break;
             case R.id.item_hlistview:
